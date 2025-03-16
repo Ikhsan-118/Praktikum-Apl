@@ -17,7 +17,7 @@ int main() {
     
     while (true) {
         // Tampilan Menu Utama
-        cout << "\n\n============================================\n";
+        cout << "============================================\n";
         cout << "         Pemesanan Tiket Konser\n";
         cout << "  Silahkan Pilih Opsi Login atau Exit\n";
         cout << "============================================\n";
@@ -41,7 +41,7 @@ int main() {
                 cout << "Password: ";
                 cin >> pass;
                 cin.ignore();
-                if (user == "admin" && pass == "admin") {
+                if (user == "Ikhsan" && pass == "2409106118") {
                     loggedIn = true;
                 } else {
                     cout << "\nLogin gagal. Username atau password salah.\n";
@@ -57,7 +57,7 @@ int main() {
             
             // Menu Admin
             while (true) {
-                cout << "\n\n========== Menu Admin ==========\n";
+                cout << "========== Menu Admin ==========\n";
                 cout << "1. Tambah Konser\n";
                 cout << "2. Lihat Konser\n";
                 cout << "3. Edit Konser\n";
