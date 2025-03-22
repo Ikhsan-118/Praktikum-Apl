@@ -45,12 +45,15 @@ int main() {
     users[1].role = "user";
     users[1].bookingCount = 0;
     
+    
     int bookingCount = 0;
     
     while (true) {
         cout << "\n\n============================================\n";
         cout << "         Pemesanan Tiket Konser\n";
-        cout << "  Pilih opsi: 1. Register   2. Login   3. Exit\n";
+        cout << "  1. Register\n";
+        cout << "  2. Login   \n";
+        cout << "  3. Exit    \n";
         cout << "============================================\n";
         cout << "Pilih opsi: ";
         int opsi;
